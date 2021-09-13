@@ -1,9 +1,7 @@
 package uaslp.enginering.exam;
 
 import uaslp.enginering.exam.model.Guest;
-import uaslp.enginering.exam.model.Hotel;
 import uaslp.enginering.exam.model.Reservation;
-import uaslp.enginering.exam.model.Room;
 import uaslp.enginering.exam.model.RoomStatus;
 
 import java.util.ArrayList;
@@ -65,7 +63,7 @@ public class Main {
         System.out.println();
         System.out.println("Room statuses");
         for (Room room : rooms) {
-            System.out.println(room.getNumber() + " - " + room.getStatus());
+            System.out.println(room.getNumber() + " - " + room.getStatus() + " - " + room.getRoomStatus());
         }
         System.out.println("---------------------------------------------------------------------");
     }
